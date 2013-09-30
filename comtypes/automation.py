@@ -786,6 +786,7 @@ _ctype_to_vartype = {
     VARIANT_BOOL: VT_BOOL,
 
     BSTR: VT_BSTR,
+    POINTER(BSTR): VT_BYREF | VT_BSTR,
     VARIANT: VT_VARIANT,
 
     # SAFEARRAY(VARIANT *)
